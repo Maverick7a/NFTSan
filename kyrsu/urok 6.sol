@@ -32,7 +32,7 @@ contract Demo {
     // call
     function getBalance() public view returns(uint){ // або function getBalance() public view returns(uint balance)
         uint balance= address(this).balance;         //     balance=address(this).balance
-        return balance;                              //     return balance тоді не потрібно писати.
+        return balance;                              
 
     }
 
