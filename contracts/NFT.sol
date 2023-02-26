@@ -18,7 +18,7 @@ contract Sanych is ERC1155, AccessControl {
 
     uint public constant FunnySanych = 1;
     uint public constant CoolSanych = 2;
-    uint public constant GurinovskiySanych = 3;
+    uint public constant GyrinovskiySanych = 3;
     uint public constant SleepingSanych = 4;
     uint public constant InvalidSanych = 5;
     uint public constant SmokingSanych = 6;
