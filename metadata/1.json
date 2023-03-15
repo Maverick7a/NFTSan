@@ -1,0 +1,12 @@
+{
+    "description" : "Very funny Sanych" ,
+    "external_url" : "https://gateway.pinata.cloud/ipfs/QmR9y79yHPhXmbB7Q7tEpojCeNWqxPUk335a3ZD2GsMbid?filename=funnysanych.jpg",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmR9y79yHPhXmbB7Q7tEpojCeNWqxPUk335a3ZD2GsMbid?filename=funnysanych.jpg",
+    "name" : "Funny Sanych" ,
+    "attributes" : [
+        {
+            "display_type": "number" ,
+            "trait_type" : ""
+        }
+    ]
+}

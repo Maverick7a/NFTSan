@@ -1,0 +1,12 @@
+{
+    "description" : "Battle for kebab" ,
+    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/tankistsanych.jpg",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/tankistsanych.jpg",
+    "name" : "Tankist Sanych" ,
+    "attributes" : [
+        {
+            "display_type": "number" ,
+            "trait_type" : ""
+        }
+    ]
+}

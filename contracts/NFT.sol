@@ -22,7 +22,7 @@ contract Sanych is ERC1155, AccessControl {
     uint public constant SleepingSanych = 4;
     uint public constant InvalidSanych = 5;
     uint public constant SmokingSanych = 6;
-    uint public constant DidMorozSanych = 7;
+    uint public constant MykolaiSanych = 7;
     uint public constant TankistSanych = 8;
 
     string name = "Varianty Sanycha";
@@ -31,6 +31,7 @@ contract Sanych is ERC1155, AccessControl {
     constructor(string memory _ipfsLocation) ERC1155(string(abi.encodePacked(_ipfsLocation, "{id}.json"))) {
         ipfsLocation = _ipfsLocation;
         _setupRole(DEFAULT_ADMIN_ROLE,msg.sender);
+        
     }
 
     function mint(address _to , uint id, uint amount) external onlyRole(CREATOR_ROLE){
@@ -55,9 +56,11 @@ contract Sanych is ERC1155, AccessControl {
         return balances[_to][id];
     }
 
-
-
     function supportsInterface(bytes4 interfaceId) public view override(ERC1155, AccessControl) returns (bool){
         return ERC1155.supportsInterface(interfaceId);
     }
-}
+
+    function addCreatorRole () external onlyRole (DEFAULT_ADMIN_ROLE){
+        grantRole(CREATOR_ROLE, msg.sender
+    }
+}   

@@ -1,0 +1,12 @@
+{
+    "description" : "Super cool Sanych" ,
+    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/coolsanych.jpg",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/coolsanych.jpg",
+    "name" : "Cool Sanych" ,
+    "attributes" : [
+        {
+            "display_type": "number" ,
+            "trait_type" : ""
+        }
+    ]
+}
