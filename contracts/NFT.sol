@@ -12,26 +12,18 @@ contract Sanych is ERC1155, AccessControl {
     mapping(uint=> uint) public totalTokens;
     mapping(address => mapping(uint =>uint)) private balances;
 
-    string public ipfsLocation;
+    string public ipfsLocation = "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7";
     uint currentTokenId;
-
-
-    uint public constant FunnySanych = 1;
-    uint public constant CoolSanych = 2;
-    uint public constant GyrinovskiySanych = 3;
-    uint public constant SleepingSanych = 4;
-    uint public constant InvalidSanych = 5;
-    uint public constant SmokingSanych = 6;
-    uint public constant MykolaiSanych = 7;
-    uint public constant TankistSanych = 8;
 
     string name = "Varianty Sanycha";
     string symbol = "ELG";
 
-    constructor(string memory _ipfsLocation) ERC1155(string(abi.encodePacked(_ipfsLocation, "{id}.json"))) {
-        ipfsLocation = _ipfsLocation;
-        _setupRole(DEFAULT_ADMIN_ROLE,msg.sender);
-        
+    constructor() 
+        ERC1155(
+            "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/{id}.json"
+        ) 
+    {
+        _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
     function mint(address _to , uint id, uint amount) external onlyRole(CREATOR_ROLE){
@@ -61,6 +53,17 @@ contract Sanych is ERC1155, AccessControl {
     }
 
     function addCreatorRole () external onlyRole (DEFAULT_ADMIN_ROLE){
-        grantRole(CREATOR_ROLE, msg.sender
+        grantRole(CREATOR_ROLE, msg.sender);
+    }
+
+    function uri(uint256 _id) public pure override returns (string memory) {
+        return
+            string(
+                abi.encodePacked(
+                    "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7",
+                    Strings.toString(_id),
+                    ".json"
+                )
+            );
     }
 }   
