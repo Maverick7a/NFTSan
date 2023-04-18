@@ -1,12 +1,27 @@
 {
-    "description" : "Very similar to Gyrinovskiy" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/Gurinovskiysanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/Gurinovskiysanych.jpg",
-    "name" : "Gyrinovskiy Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Gurinovskiy Sanych",
+    "description": "Very young Sanych , can damage you by screaming",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/Gurinovskiysanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "42"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "65"
+      },
+      {
+        "trait_type" : "Partia",
+        "value" : "LDPR"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Comunism"
+      }
+
     ]
-}
+  }

@@ -1,9 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const ipfsLocation = "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7"
-
-
+  
   const NFT = await ethers.getContractFactory("Sanych");
   const nft = await NFT.deploy();
 

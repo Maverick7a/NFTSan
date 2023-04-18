@@ -1,12 +1,27 @@
 {
-    "description" : "Battle for kebab" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/tankistsanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/tankistsanych.jpg",
-    "name" : "Tankist Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Tankist Sanych",
+    "description": "Absolutely powerful creature Sanych",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/tankistsanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "100"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "97"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "Very dumb"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Leopard-2"
+      }
+
     ]
-}
+  }

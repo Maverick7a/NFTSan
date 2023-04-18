@@ -1,12 +1,27 @@
 {
-    "description" : "Very funny Sanych" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/funnysanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/funnysanych.jpg",
-    "name" : "Funny Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Funny Sanych",
+    "description": "Very friendly Sanych",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/funnysanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "35"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "78"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "Pretty smart"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Illusion"
+      }
+
     ]
-}
+  }

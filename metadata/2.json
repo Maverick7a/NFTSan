@@ -1,12 +1,27 @@
 {
-    "description" : "Super cool Sanych" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/coolsanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/coolsanych.jpg",
-    "name" : "Cool Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Invalid Sanych",
+    "description": "Very slow Sanych model , dangerous only if you're close",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/invalidsanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "2"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "84"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "Very smart"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Invalidnist"
+      }
+
     ]
-}
+  }

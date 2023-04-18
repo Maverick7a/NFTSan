@@ -1,12 +1,27 @@
 {
-    "description" : "Christmas Time" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/didmorozsanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/didmorozsanych.jpg",
-    "name" : "Mykolai Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Smoking Sanych",
+    "description": "Ninja Sanych , hides in smokes",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/smokingsanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "41"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "83"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "Megamind"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Stealth"
+      }
+
     ]
-}
+  }

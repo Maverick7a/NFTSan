@@ -9,47 +9,50 @@ contract Sanych is ERC1155, AccessControl {
 
     bytes32 public constant CREATOR_ROLE = keccak256("CREATOR ROLE");
     
-    mapping(uint=> uint) public totalTokens;
-    mapping(address => mapping(uint =>uint)) private balances;
-
-    string public ipfsLocation = "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7";
-    uint currentTokenId;
-
-    string name = "Varianty Sanycha";
-    string symbol = "ELG";
+    string public name = "Varianty Sanycha";
+    string public symbol = "ELG";
 
     constructor() 
         ERC1155(
-            "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/{id}.json"
+            "https://gateway.pinata.cloud/ipfs/QmPZohs8BuZ46dJYEZk1RoLuAnNmuL7jjkR9vYmi81A87i/{id}.json"
         ) 
     {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(CREATOR_ROLE, msg.sender);
     }
 
-    function mint(address _to , uint id, uint amount) external onlyRole(CREATOR_ROLE){
-        _mint(_to, id, amount, "" );
+    function mint(
+        address _to,
+        uint256 _id,
+        uint256 _amount,
+        bytes memory _data
+    ) public onlyRole(CREATOR_ROLE) {
+        _mint(_to, _id, _amount, _data);
+    }
 
-        totalTokens[id] += amount;
-        balances[_to][id] +=amount;
-        }
+    function mintBatch(
+        address _to,
+        uint256[] memory _id,
+        uint256[] memory _amount,
+        bytes memory _data
+    ) public onlyRole(CREATOR_ROLE) {
+        _mintBatch(_to, _id, _amount, _data);
+    }
     
     function burn(address _from , uint id, uint amount) external onlyRole(CREATOR_ROLE){
         _burn(_from, id , amount);
 
-        totalTokens[id] -= amount;
-        balances[_from][id] -=amount;
     }
 
-    function totalKilkist(uint id) public view returns(uint256) {
-        return totalTokens[id];
-    }
-
-    function checkBalance(address _to , uint id) public view returns (uint256){
-        return balances[_to][id];
-    }
-
-    function supportsInterface(bytes4 interfaceId) public view override(ERC1155, AccessControl) returns (bool){
-        return ERC1155.supportsInterface(interfaceId);
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        override(AccessControl, ERC1155)
+        returns (bool)
+    {
+        return
+            interfaceId == type(IAccessControl).interfaceId ||
+            super.supportsInterface(interfaceId);
     }
 
     function addCreatorRole () external onlyRole (DEFAULT_ADMIN_ROLE){
@@ -60,10 +63,14 @@ contract Sanych is ERC1155, AccessControl {
         return
             string(
                 abi.encodePacked(
-                    "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7",
+                    "https://gateway.pinata.cloud/ipfs/QmPZohs8BuZ46dJYEZk1RoLuAnNmuL7jjkR9vYmi81A87i/",
                     Strings.toString(_id),
                     ".json"
                 )
             );
     }
 }   
+// rpc endpoint
+//npx hardhat + 2 file
+//npm i  
+//git remote add origin culka

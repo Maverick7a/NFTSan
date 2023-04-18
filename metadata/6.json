@@ -1,12 +1,27 @@
 {
-    "description" : "Just wanna some smoke" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/smokingsanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/smokingsanych.jpg",
-    "name" : "Smoking Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Sleeping Sanych",
+    "description": "Very hard to wake up  Sanych",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/sleepingsanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "0"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "75"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "None"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Hropyt"
+      }
+
     ]
-}
+  }

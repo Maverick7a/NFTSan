@@ -1,12 +1,27 @@
 {
-    "description" : "Disabled Sanych" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/invalidsanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/invalidsanych.jpg",
-    "name" : "Invalid Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Sanych Claus",
+    "description": "Very powerfull and rare Sanych",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/didmorozsanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "94"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "90"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "Wise"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Magic"
+      }
+
     ]
-}
+  }

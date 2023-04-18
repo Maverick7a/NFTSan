@@ -1,12 +1,27 @@
 {
-    "description" : "Time to sleep" ,
-    "external_url" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/sleepingsanych.jpg",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXmW9V1ZrSr5NdxfbZCtHaUx7UUqqSPnw7axLjH34Nkp7/sleepingsanych.jpg",
-    "name" : "Sleeping Sanych" ,
-    "attributes" : [
-        {
-            "display_type": "number" ,
-            "trait_type" : ""
-        }
+    "name": "Cool Sanych",
+    "description": "Steals every woman in a 100m radius",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE4nsex1ssUN1LXVu8r1u5YkTQZrRKeExEgW3ad2mpuG/coolsanych.jpg",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Power",
+        "value": "74"
+      },
+      {
+        "display_type" : "number",
+        "trait_type": "Size",
+        "value": "81"
+      },
+      {
+        "trait_type" : "Intelligence",
+        "value" : "Average"
+      },
+
+      {
+        "trait_type" : "Special ability",
+        "value" : "Handsome"
+      }
+
     ]
-}
+  }
